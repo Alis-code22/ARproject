@@ -7,7 +7,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 window.onload = function(){
     const video = document.getElementById("myvideo");	
     video.onloadedmetadata = start_processing;
-    const constraints = {audio: false, video: {facingModel: 'environment'}};
+    const constraints = {audio: false, video: {facingMode: 'environment'}};
     navigator.mediaDevices.getUserMedia(constraints)
     .then((stream) => video.srcObject = stream )
     .catch((err) => {
