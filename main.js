@@ -19,15 +19,11 @@ window.onload = function(){
 let containers = {};
 
 const models = { 
-	//0: 'retro_cartoon_car.glb', 
-	//6: { file: 'retro_cartoon_car2.glb', scale: .5 }, 
-	//4: { file: 'choco_bunny2.glb',, scale: 1 } 
-	4: { file: 'lampada.glb', scale: .01 },
-	// 7: { file: 'gru_gru.glb', scale: .5 },
-	11: { file: 'pink_pc.glb', scale: .01 },
+	//0: 'retro_cartoon_car.glb',
+	4: { file: 'lampada.glb', scale: .025 },
+	11: { file: 'pink_pc.glb', scale: .03 },
 	6:{ file: 'tape_whale.glb', scale: .01 },
-	// 3: { file: 'lowpoly_fox.glb', scale: 1 },
-	3: { file: 'pencil_case.glb', scale: .01 },
+	3: { file: 'pencil_case.glb', scale: .005 },
 	7: { file: 'plant.glb', scale: .01 },
 };
 
