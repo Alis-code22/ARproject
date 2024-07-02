@@ -152,6 +152,17 @@ function start_processing(){
         requestAnimationFrame( renderloop );
         if(arLoaded)
             arController.process(video);
+
+		const width = canvas.clientWidth;
+		const height = canvas.clientHeight;
+		const needResize = canvas.width !== width || canvas.height !== height;
+
+		if (needResize) {
+			renderer.setSize(width, height, false);
+			camera.aspect = canvas.clientWith / canvas.clientHeight;
+			camera.updateProjectionMatrix();
+		}
+
 		const now = performance.now();
 		let ixs = Object.keys(containers);
 		// debugger
