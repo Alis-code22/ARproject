@@ -3,6 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<title>ARProject</title>
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+			position: relative;
+		}
+		.container {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100vh;
+			width: 100vw;
+			
+			display: grid;
+			place-items: center;
+		}
+	
+
+	</style>
 	<script type="importmap">
 		{
 			"imports": {
@@ -16,6 +35,8 @@
 </head> 
 <body>
 	<video autoplay muted id="myvideo"></video>
-	<canvas id="mycanvas"></canvas>
+	<div class="container">
+		<canvas id="mycanvas"></canvas>
+	</div>
 </body>
 </html>

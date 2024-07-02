@@ -93,9 +93,22 @@ function start_processing(){
     // canvas & video
     const video = document.getElementById("myvideo");
     const canvas = document.getElementById("mycanvas");
-    canvas.width = video.videoWidth;
-    canvas.height = video.videoHeight;
-    video.width = video.height = 0;
+    // canvas.width = video.videoWidth;
+    // canvas.height = video.videoHeight;
+
+	const c = document.getElementsByClassName('container')[0];
+	if( c.clientHeight > c.clientWidth ) {
+		canvas.style.width = '100%';
+		canvas.style.height = `min(100%, 100vw * ${video.videoHeight} / ${video.videoWidth})`;
+	}
+	else {
+		canvas.style.height = '100%';
+		canvas.style.width = `min(100%, 100vh * ${video.videoWidth} / ${video.videoHeight})`;
+	}
+
+	video.width = video.height = 0;
+	
+	// canvas.style.aspectRatio = video.style.aspectRatio;
 
     // three.js
     const renderer = new THREE.WebGLRenderer( { canvas: canvas } );
