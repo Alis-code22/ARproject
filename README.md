@@ -9,9 +9,9 @@ Attraverso la tecnologia della Realtà Aumentata (AR) aiuta gli utenti a progett
 Ogni marker AR rappresenta un oggetto da scrivania (PC, lampada, astuccio, nastro adesivo, pianta, orologio). Gli utenti possono posizionare e spostare questi oggetti virtuali nel loro ambiente reale per creare la configurazione ideale della propria scrivania.
 
 ### Caratteristiche
-Marker AR: Marker unici che rappresentano diversi oggetti da scrivania.
-Posizionamento degli Oggetti: Posizionamento e movimento in tempo reale degli oggetti virtuali 3d su una scrivania fisica.
-Interfaccia User-Friendly: Controlli semplici per un'interazione intuitiva con l'ambiente AR.
+- Marker AR: Marker unici che rappresentano diversi oggetti da scrivania.
+- Posizionamento degli Oggetti: Posizionamento e movimento in tempo reale degli oggetti virtuali 3d su una scrivania fisica.
+- Interfaccia User-Friendly: Controlli semplici per un'interazione intuitiva con l'ambiente AR.
 
 ### Requisiti
 - Un dispositivo con capacità AR (ad esempio smartphone o tablet)
