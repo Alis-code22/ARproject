@@ -1,6 +1,6 @@
 # ARProject
 
-by Sabrina
+by Sabrina Foschian
 
 ## Organize your desk (AR)
 
