@@ -14,5 +14,5 @@ Posizionamento degli Oggetti: Posizionamento e movimento in tempo reale degli og
 Interfaccia User-Friendly: Controlli semplici per un'interazione intuitiva con l'ambiente AR.
 
 ### Requisiti
-- Un dispositivo con capacità AR (ad esempio, smartphone o tablet con supporto ARKit o ARCore)
+- Un dispositivo con capacità AR (ad esempio smartphone o tablet)
 - Marker AR pre-stampati (forniti nella cartella markers)
