@@ -2,7 +2,7 @@
 
 Sabrina Foschian
 
-## "Organize your desk" (AR)
+## "Organize your desk!" (AR)
 
 ### Panoramica del Progetto
 Attraverso la tecnologia della Realtà Aumentata (AR) aiuta gli utenti a progettare e organizzare le proprie scrivanie.
